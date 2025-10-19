@@ -272,7 +272,8 @@ public class Main implements ActionListener {
                 }catch (NumberFormatException ex ){
                     answer1.result = 0;
                     answer1.errorType = "Answer too big";
-
+// tady to nejak zprznim
+                    // uplny error
                 }
                 state = State.NUM1;
                 break;
